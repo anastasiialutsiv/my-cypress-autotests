@@ -1,6 +1,6 @@
 import '../../setup';
 
-describe('Accessibility Results Report', () => {
+describe('Accessibility Results Reports', () => {
 
   const shortDescription = 'Fintech short description';
   const dateFounded = '01.01.2001';

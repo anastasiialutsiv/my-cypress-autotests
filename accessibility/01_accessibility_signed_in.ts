@@ -14,7 +14,7 @@ const cloudSandpitUrl = '/sandpits/68';
 const dataSandpitUrl = '/sandpits/67';
 const saasSandpitUrl = '/sandpits/53';
 
-describe('Accessibility Results Report', () => {
+describe('Accessibility Results Reports', () => {
   beforeEach(() => {
     cy.getJwtToken({
       user: {

@@ -24,7 +24,7 @@ describe('Organization Feature', () => {
     });
   });
 
-  it('C4252 - Ensure that the Admin is able to create the organization', () => {
+  it('C4252 - Ensure that the Admin can create the organization', () => {
     cy.get('[data-cy="app-sidebar-admin"]')
       .click();
 

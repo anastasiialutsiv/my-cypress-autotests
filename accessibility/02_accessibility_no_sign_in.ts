@@ -1,6 +1,6 @@
 import '../../setup';
 
-describe('Accessibility Results Report', () => {
+describe('Accessibility Results Reports', () => {
   afterEach(function() {
     const fileName = 'accessibility_results_2.json';
 

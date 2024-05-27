@@ -24,7 +24,7 @@ describe('Organization Feature', () => {
     });
   });
 
-  it.skip('C4281 -	Ensure that Users in the deleting org are either deleted or moved to other orgs', () => {
+  it.skip('C4281 -	Ensure that User in the deleting org are either deleted or moved to other orgs', () => {
 
     //Create Organization
     cy.get('[data-cy="app-sidebar-admin"]')
