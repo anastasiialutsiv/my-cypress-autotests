@@ -70,7 +70,7 @@ describe('Organization Feature', () => {
 
   });
 
-  it('C4268 - Ensure that the Admin is able to create the organization draft', () => {
+  it('C4268 - Ensure that the Admin can create the organization draft', () => {
     cy.visit('/admin-portal/organizations');
 
     cy.get('[data-cy="add-organization-button"]')

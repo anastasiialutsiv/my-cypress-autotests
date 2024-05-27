@@ -91,7 +91,7 @@ describe('Organization Feature', () => {
 
   });
 
-  it('C4281 -	Ensure that Users in the deleting org are either moved to other orgs', () => {
+  it('C4281 -	Ensure that Users in the deleting org are either moved to other org', () => {
 
     //Create Organization
     cy.get('[data-cy="app-sidebar-admin"]')
